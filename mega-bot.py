@@ -1,5 +1,3 @@
-#import sys
-#sys.path.insert(0, r"C:\Python310\Lib\site-packages")
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support.ui import WebDriverWait
@@ -7,6 +5,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 import time  
 from selenium.webdriver.common.keys import Keys  
+
+
 print("sample test case started")  
 driver = webdriver.Chrome(ChromeDriverManager().install())
 #driver=webdriver.firefox()  
